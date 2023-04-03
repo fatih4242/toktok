@@ -7,10 +7,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/classes/Url.class.php';
 class Database{
     private function ConnectDatabase(){
 
-        $servername = "sql934.main-hosting.eu";
-        $dbName = "u335195660_boykim";
-        $username = "u335195660_boykim";
-        $password = "Boykim123.,!";
+        $servername = "servername";
+        $dbName = "Database name";
+        $username = "Username";
+        $password = "Password";
 
         try {
             $conn = new PDO("mysql:host=$servername;dbname=$dbName", $username, $password);
